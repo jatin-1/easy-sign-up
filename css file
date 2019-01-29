@@ -1,0 +1,42 @@
+body{
+	background:rgba(00,00,254,0.1);
+	margin:0;
+	
+	font-family: 'Indie Flower', cursive;
+}
+#h2{
+	
+	background:rgba(21,121,244,0.4);
+	border:none;
+	border-radius:16px;
+	margin-top:0;
+
+}
+#password{
+	align-content: left;
+}
+div:nth-of-type(1){
+	text-align: center;
+}
+span{
+	border:none ;
+	border-radius: 20px;
+	background: rgba(123, 02, 123, 0.1);
+}
+.margin{
+	margin:10px 10px 10px 10px;
+}
+.onhover{
+	font-family: 'Indie Flower', cursive;
+	border:none;
+	border-radius:10px;
+
+}
+input::placeholder{
+	font-family: 'Indie Flower', cursive;
+
+}
+input::type{
+	font-family: 'Indie Flower', cursive;
+
+}
