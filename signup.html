@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>
+            sign up
+        </title>
+        <link rel="stylesheet" type="text/css" href="signup.css">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+    </head>
+    <body>
+    <div>
+	<h1 id="h2">SIGN UP (:- MUSICFREAKS</h1>
+        <form>
+		<div calss="margin">
+			<label for="firstname"><span>First Name</span> :</label>
+            <input name="first name" id="firstname"class="hover" type="text" placeholder="first name" required>  
+			<label for="last name"><span>Last Name</span> :</label>
+			<input name="last name" id="last name"class="hover" type="text" placeholder="last name" required>
+		</div>
+		<div class="margin">
+			<label for="password"> <span>Password</span> :</label>
+			<input id="password" type="password"class="hover" placeholder="password" pattern=".{5,10}" required =" 5 to 10 characters , include @,lowercase,uppercase"  required>
+		</div>
+		<div class="margin">
+			<label for="male"><span>Male</span></label>
+			<input name="gender" id="male" class="onhover " type="radio" value="male" required>
+			<label for="female"><span>Female</span></label>
+			<input name="gender" id="female"class="onhover "  type="radio" value="female" required>
+			<label for="others"><span>Others</span></label>
+			<input name="gender" id="others" class="onhover " type="radio" value="others" required>
+		</div>
+		<div class="margin">	
+			<label for="email"><span>Email</span> :</label>
+			<input name="email"class="hover" id="emil" type="email" placeholder="email" required>
+			<label for="date"><span>Date</span> :</label>
+			<input id="date"class="hover" type="date" required>
+		</div>
+		<div class="margin">
+			<p>
+			<input type="checkbox" class="onhover " required>
+			 I agree to terms and cond. 
+			 </p>
+		</div>
+			<button class="onhover " >sign up</button>
+			
+				
+			
+        </form>
+    </div>
+        <script type="text/javascript" src="signup.js"></script>
+    </body>
+</html>
